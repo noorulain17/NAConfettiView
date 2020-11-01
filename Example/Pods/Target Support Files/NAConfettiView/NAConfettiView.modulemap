@@ -1,0 +1,6 @@
+framework module NAConfettiView {
+  umbrella header "NAConfettiView-umbrella.h"
+
+  export *
+  module * { export * }
+}

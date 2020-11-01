@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SAConfettiView
+//  NAConfettiView
 //
 //  Created by Sudeep Agarwal on 12/14/2015.
 //  Copyright (c) 2015 Sudeep Agarwal. All rights reserved.
