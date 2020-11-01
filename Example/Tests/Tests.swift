@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import SAConfettiView
+import NAConfettiView
 
 class Tests: XCTestCase {
     

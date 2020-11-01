@@ -1,39 +1,51 @@
-# SAConfettiView
+# NAConfettiView
 
 ![language](https://img.shields.io/badge/Language-%20Swift%20-orange.svg)
 ![CI Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-[![Version](https://img.shields.io/cocoapods/v/SAConfettiView.svg?style=flat)](http://cocoapods.org/pods/SAConfettiView)
-[![License](https://img.shields.io/cocoapods/l/SAConfettiView.svg?style=flat)](http://cocoapods.org/pods/SAConfettiView)
-[![Platform](https://img.shields.io/cocoapods/p/SAConfettiView.svg?style=flat)](http://cocoapods.org/pods/SAConfettiView)
+[![Version](https://img.shields.io/cocoapods/v/NAConfettiView.svg?style=flat)](http://cocoapods.org/pods/NAConfettiView)
+[![License](https://img.shields.io/cocoapods/l/NAConfettiView.svg?style=flat)](http://cocoapods.org/pods/NAConfettiView)
+[![Platform](https://img.shields.io/cocoapods/p/NAConfettiView.svg?style=flat)](http://cocoapods.org/pods/NAConfettiView)
 
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/11940172/11791210/f97b6bd8-a2da-11e5-9083-b131fa796373.gif" alt="confetti" width="473.6" height="198">
 </p>
 
-It's raining confetti! SAConfettiView is the easiest way to add fun, multi-colored confetti to your application and make users feel rewarded. Written in Swift, SAConfettiView is a subclass of UIView and is highly customizable. From various types and colors of confetti to different levels of intensity, you can make the confetti as fancy as you want.
+It's raining confetti! `NAConfettiView` is the easiest way to add fun, multi-colored confetti to your application and make users feel rewarded. Written in Swift, `NAConfettiView` is a subclass of UIView and is highly customisable. From various types and colors of confetti to different levels of intensity, you can make the confetti as fancy as you want.
 
 ## Installation
 
-SAConfettiView is available through [CocoaPods](http://cocoapods.org). To install
+### Cocoapods
+
+`NAConfettiView` is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```swift
-pod "SAConfettiView"
+pod "NAConfettiView"
 ```
 
 And then run:
 
 `$ pod install`
 
-#### Manual Installation
-To manually install SAConfettiView, simply add `SAConfettiView.swift` to your project.
+### Swift Package Manager
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into Xcode and the Swift compiler.
+
+If you are using Xcode 11 or later:
+
+- Click File
+- Swift Packages
+- Add Package Dependency...
+- Specify the git URL for `NAConfettiView` -  `https://github.com/noorulain17/NAConfettiView`
+
+### Manual Installation
+To manually install `NAConfettiView, simply add `NAConfettiView.swift` to your project.
 
 ## Usage
 
-Creating a SAConfettiView is the same as creating a UIView:
+Creating a NAConfettiView is the same as creating a UIView:
 
 ```swift
-let confettiView = SAConfettiView(frame: self.view.bounds)
+let confettiView = NAConfettiView(frame: self.view.bounds)
 ```
 
 Don't forget to add the subview!
@@ -130,6 +142,9 @@ Returns `true` if it is being displayed, and `false` if it is not.
 
 ## Change Log
 
+### 1.1.0
+* Added Swift 5 & Xcode 12 support
+  
 ### 1.0.8
 * Add `isActive()` method to determine if the confetti is currently active
   [Shakarang](https://github.com/Shakarang)
@@ -154,10 +169,15 @@ Returns `true` if it is being displayed, and `false` if it is not.
 * Replace `.Custom` with `.Image(UIImage)` for easier customization of confetti image
   [gmertk](https://github.com/gmertk)
   [#2](https://github.com/sudeepag/SAConfettiView/pull/2)
+  
+## Credits
+Inspired by [SAConfettiView](https://github.com/sudeepag/SAConfettiView) by Sudeep Agarwal. But since the library is not being updated, hence cloned it with latest iOS updates.
+
 
 ## License
 
 Copyright (c) 2015 Sudeep Agarwal
+Copyright (c) 2020 Noor ul Ain Ali
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -171,7 +191,7 @@ all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN

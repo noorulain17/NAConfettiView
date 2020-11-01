@@ -1,17 +1,17 @@
 //
 //  ViewController.swift
-//  SAConfettiView
+//  NAConfettiView
 //
 //  Created by Sudeep Agarwal on 12/14/2015.
 //  Copyright (c) 2015 Sudeep Agarwal. All rights reserved.
 //
 
 import UIKit
-import SAConfettiView
+import NAConfettiView
 
 class ViewController: UIViewController {
     
-    var confettiView: SAConfettiView!
+    var confettiView: NAConfettiView!
     var isRainingConfetti = false
     @IBOutlet var confettiStatus: UILabel!
     
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Create confetti view
-        confettiView = SAConfettiView(frame: self.view.bounds)
+        confettiView = NAConfettiView(frame: self.view.bounds)
         
         // Set colors (default colors are red, green and blue)
         confettiView.colors = [UIColor(red:0.95, green:0.40, blue:0.27, alpha:1.0),
