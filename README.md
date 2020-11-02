@@ -176,8 +176,7 @@ Inspired by [SAConfettiView](https://github.com/sudeepag/SAConfettiView) by Sude
 
 ## License
 
-Copyright (c) 2015 Sudeep Agarwal
-Copyright (c) 2020 Noor ul Ain Ali
+Copyright (c) 2015-2020 Sudeep Agarwal, Noor ul Ain Ali
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
